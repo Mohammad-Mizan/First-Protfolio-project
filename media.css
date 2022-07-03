@@ -1,0 +1,606 @@
+
+/* -------for Tablets, Ipads------ */
+  @media (min-width: 1025px) and (max-width: 1280px) {
+  
+    nav ul li a{
+        width: 12rem;
+    }
+    .service-box{
+      margin-top: 0rem;
+    }
+     
+
+  }
+
+
+
+  
+               /*------------------ Tablets, Ipads (landscape)----------------- */
+  @media (min-width: 768px) and (max-width: 1024px) {
+  
+    nav ul li a .fa-solid{
+
+        width: 1.5rem;
+        font-size: 1rem;
+    }
+    .left-container{
+        width: 30%;
+    }
+    nav ul li a{
+        width: 10rem;
+    }
+    .right-container{
+        width: 70%;
+        text-align: center;
+    }
+    .right-container h1{
+        font-size: 2.4rem;
+    } 
+    .about_box1 p{
+      line-height: 1rem;
+      padding-bottom: 1rem;
+  }
+  /* ------------about-footer------------ */
+  [class ^="about-footer_box-"]{
+    width: 20%;
+    height: 100%;
+    padding: .3rem .2rem;
+    text-align: center;
+    
+}
+/*------------service part-------------- */
+.service-box{
+  margin-top: 2rem;
+}
+ .box-wrap{
+  display:flex;
+  flex-wrap: wrap;
+}
+.box{
+  width: 100%;
+  height: 60%;
+  padding: 5%;
+}
+.box img{
+  width: 5rem;
+  height: 5rem;
+  margin-bottom: .2rem;
+}
+.box h4{
+  font-size: 1rem;
+  margin: .2rem 0rem;
+}
+.box p{
+  line-height: 1rem;
+
+ }
+ /*-------------Exprience-part */
+ .experience{
+  margin-top: 28rem;
+
+ 
+}
+.experience_warper{
+ flex-direction: column;
+ padding: 1rem;
+ height: 200vh;
+ margin-bottom: 0;
+ gap: 5vh;
+
+}
+
+[class ^="ex_warper"]{
+  width: 100%;
+  height: 90vh;
+  margin: 1%;
+
+}
+[class ^="ex_warp"]{
+  grid-column-start: 3;
+  grid-column-end: 13;
+  padding: 1%;
+  text-align: start;  
+  color: white;
+  margin-top: 3rem;
+}
+
+/* ----------recent-work------------------- */
+
+.recent_button button{
+  margin-bottom: .5rem;
+}
+
+.recent_container{
+  
+  height: 90vh;
+  padding: 10%;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-template-rows: repeat(2,1fr);
+  gap: 5%;
+}
+.recent-btn {
+  margin-top: 18rem;
+}
+/*---------------------------pricing_plans----------------------------*/
+.pricing_plans_container{
+  
+  margin-top: 25rem;
+}
+.pricing_plan h4{
+  margin: .5rem 0rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+.pricing_plan p{
+  font-size: .7rem;
+  opacity: .7;
+  line-height: .7rem;
+  margin-bottom: 1rem;
+}
+.price_btn{
+  padding: .3rem 1.5rem;
+  font-weight: normal;
+
+}
+.p_item-2 {
+  height: 60vh;
+}
+.p_item-3 , .p_item-1 {
+  height: 57vh;
+}
+
+   /* -----------------get in tuch--------------------------- */
+   label{
+    width: 90%;
+    margin-left: 1.5rem;
+}
+input{
+  width: 90%;
+}
+.get_in_tuch p{
+  font-size: 1rem;
+}
+.tuch_text h2{
+  font-size: 2rem;
+}
+.tuch_form{
+  width: 60%;
+}
+
+  }
+
+
+                        /*( Low Resolution Tablets, Mobiles (Landscape)-----------) */
+  @media (min-width: 481px) and (max-width: 767px) {
+  
+    .left-container{
+        display: none;
+    }
+    .right-container{
+        width: 100%;
+        text-align: center;
+        line-height: 5rem;
+    }
+
+/*-------about-part---------*/
+    .about_box {
+      flex-direction: column;
+  }
+  .about_box1{
+    width: 100%;
+    height: 50%;   
+  }
+  .about_box1 p{
+  padding-bottom: .5rem;
+  }
+  
+  .about_box2{
+  width: 100%;
+  height: 50vh;
+  }
+  
+  [class ^="progres-"]{
+  
+  margin-bottom: .2rem;
+  
+  }
+  
+   [class ^="about-footer_box-"]{
+    width: 40%;
+    height: 100%;
+    border-radius: 1rem;
+    color: white;
+    padding: 0rem 0rem;
+    margin-bottom: 1rem;   
+    box-sizing: border-box;
+  }
+  .about-footer h4{
+  font-size: 1.5rem;
+  }
+  .about-footer i{
+  color: white;
+  font-size: 1.5rem;
+  }
+  .about-footer p{
+  color: white;
+  font-size: 1.4rem;
+  }
+  
+   .about-footer{
+    flex-wrap: wrap;
+    height: 20vh;
+   }
+ /*------------service part-------------- */
+   .service-box{
+    margin-top: 8rem;
+  }
+   .box-wrap{
+    display:flex;
+    flex-wrap: wrap;
+  }
+  .box{
+    width: 100%;
+  }
+  .box img{
+    width: 5rem;
+    height: 5rem;
+    margin-bottom: .2rem;
+  }
+  .box h4{
+    font-size: 1rem;
+    margin: .2rem 0rem;
+  }
+  .box p{
+    line-height: 1rem;
+  
+   }
+   /*-------------Exprience-part */
+.experience{
+  margin-top: 42rem;
+
+ 
+}
+.experience_warper{
+ flex-direction: column;
+ padding: 1rem;
+ height: 200vh;
+ margin-bottom: 0;
+ gap: 5vh;
+
+}
+
+[class ^="ex_warper"]{
+  width: 100%;
+  height: 90vh;
+  margin: 1%;
+
+}
+[class ^="ex_warp"]{
+
+  margin-top: 0rem;
+}
+.ex_warp h5{
+  font-size: 1.2rem;
+  margin: 0;
+  line-height: 2rem;
+}
+.ex_warp p{
+  font-size: .8rem;
+  line-height: 1rem;
+}
+
+
+/* ----------recent-work------------------- */
+
+.recent_button button{
+  margin-bottom: 0rem;
+}
+.recent_text h2{
+  margin-top: 1rem;
+ margin-bottom: 0;
+ line-height: 1.5rem;
+}
+
+.recent_container{
+  
+  height: 90vh;
+  padding: 10%;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-template-rows: repeat(2,1fr);
+  gap: 5%;
+}
+.ci1 h5{
+  color: white;
+  font-size: 1.2rem;
+ line-height: 1.5rem;
+}
+.ci1 p{
+    padding-bottom: 1rem;
+    width: 0;
+    height: 0;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: deeppink;
+}
+.recent-btn {
+  margin-top: 18rem;
+}
+ 
+/*---------------------------pricing_plans----------------------------*/
+.pricing_plans_container{
+  
+  margin-top: 25rem;
+  box-shadow: none;
+}
+.p_container_text h2{
+  margin-bottom: 20rem;
+}
+.price_item{
+flex-direction: column;
+}
+[class ^="pricing_plan"]{
+  width: 100%;
+  margin-bottom: 2rem;
+  line-height: 1.4rem;
+}
+.price_item img{
+  margin: 0rem 0rem;
+  
+}
+/* -------clint-review---------- */
+.clint_review{
+ margin-top: 40rem;
+  
+}
+
+.clint_img{
+ margin-bottom: 10rem;
+}
+
+.clint_text{
+  line-height: 1rem;
+}
+
+   /* -----------------get in tuch--------------------------- */
+   .get_in_tuch{
+    margin-top: 5rem;
+    padding: 0% 5%;
+    flex-direction: column;
+
+}
+.tuch_form{
+  width: 100%;
+  line-height: 1rem;
+}
+
+label{
+  margin-bottom: .5rem;
+}
+.get_in_tuch p{
+  line-height: 0rem;
+  margin-bottom: 2rem;
+  font-size: 1rem;
+
+}
+  }
+  
+
+
+ 
+
+  
+           /* ------------------for--mobile--------------------- */
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  .left-container{
+      display: none;
+  }
+  .right-container{
+      width: 100%;
+      text-align: center;
+      line-height: 5rem;
+  }
+  
+/* --about-part-- */
+  .about_box {
+    flex-direction: column;
+}
+.about_box1{
+  width: 100%;
+  height: 50%;   
+}
+.about_box1 p{
+padding-bottom: .5rem;
+}
+
+.about_box2{
+width: 100%;
+height: 50vh;
+}
+
+[class ^="progres-"]{
+
+margin-bottom: .2rem;
+
+}
+
+ [class ^="about-footer_box-"]{
+  width: 40%;
+  height: 100%;
+  border-radius: 1rem;
+  color: white;
+  padding: 0rem 0rem;
+  margin-bottom: 1rem;   
+  box-sizing: border-box;
+}
+.about-footer h4{
+font-size: 1.5rem;
+}
+.about-footer i{
+color: white;
+font-size: 1.5rem;
+}
+.about-footer p{
+color: white;
+font-size: 1.4rem;
+}
+
+ .about-footer{
+  flex-wrap: wrap;
+  height: 20vh;
+ }
+
+ /* service-part */
+ .service-box{
+  margin-top: 8rem;
+}
+ .box-wrap{
+  display:flex;
+  flex-wrap: wrap;
+}
+.box{
+  width: 100%;
+}
+.box img{
+  width: 5rem;
+  height: 5rem;
+  margin-bottom: .2rem;
+}
+.box h4{
+  font-size: 1rem;
+  margin: .2rem 0rem;
+}
+.box p{
+  line-height: 1rem;
+
+ }
+
+/*-------------Exprience-part */
+.experience{
+  margin-top: 42rem;
+
+ 
+}
+.experience_warper{
+ flex-direction: column;
+ padding: 1rem;
+ height: 200vh;
+ margin-bottom: 0;
+ gap: 5vh;
+
+}
+
+[class ^="ex_warper"]{
+  width: 100%;
+  height: 90vh;
+  margin: 1%;
+
+}
+[class ^="ex_warp"]{
+
+  margin-top: 0rem;
+}
+.ex_warp h5{
+  font-size: 1.2rem;
+  margin: 0;
+  line-height: 2rem;
+}
+.ex_warp p{
+  font-size: .8rem;
+  line-height: 1rem;
+}
+
+/* ----------recent-work------------------- */
+
+.recent_button button{
+  margin-bottom: 0rem;
+}
+.recent_text h2{
+ margin-bottom: 0;
+ line-height: 1.5rem;
+}
+.recent_container{
+  width: 100%;
+  height: 80vh;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(6,1fr);
+  padding: 0rem 3rem;
+}
+.ci1 p{
+  padding-bottom: 3rem;
+  width: 0;
+  height: 0;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: deeppink;
+}
+.ci1 h5{
+  color: white;
+  font-size: 1.2rem;
+ line-height: 1.7rem;
+}
+.recent-btn button{
+  margin-top: 68rem;
+}
+
+/*---------------------------pricing_plans----------------------------*/
+.pricing_plans_container{
+  
+  margin-top: 70rem;
+  box-shadow: none;
+}
+.p_container_text h2{
+  margin-bottom: 20rem;
+}
+.price_item{
+flex-direction: column;
+}
+[class ^="pricing_plan"]{
+  width: 100%;
+  margin-bottom: 2rem;
+  line-height: 1.4rem;
+}
+.price_item img{
+  margin: 0rem 0rem;
+  
+}
+
+/* -------clint-review---------- */
+.clint_review{
+  margin-top: 40rem;
+   
+ }
+ 
+ .clint_img{
+  margin-bottom: 10rem;
+ }
+ 
+ .clint_text{
+   line-height: 1rem;
+   width: 80%;
+ }
+
+    /* -----------------get in tuch--------------------------- */
+    .get_in_tuch{
+      margin-top: 5rem;
+      padding: 0% 5%;
+      flex-direction: column;
+  
+  }
+  .tuch_form{
+    width: 100%;
+    line-height: 1rem;
+  }
+  
+  label{
+    margin-bottom: .5rem;
+  }
+  .get_in_tuch p{
+    line-height: 0rem;
+    margin-bottom: 2rem;
+    font-size: 1rem;
+  
+  }
+}
